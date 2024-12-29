@@ -39,7 +39,7 @@ jobs:
       - name: Initialize Terraform
         run: terraform init
 
-      # Step 5: Terraform Plan
+      # Step 5: Terraform Pla
       - name: Terraform Plan
         run: terraform plan -out=tfplan
 
